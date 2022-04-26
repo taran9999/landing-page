@@ -25,6 +25,11 @@ img {
     height: 200px;
 }
 
+button {
+    background-color: #3882f6;
+    color: #fff;
+}
+
 .header {
     display: flex;
     background-color: #1f2937;
@@ -43,9 +48,21 @@ img {
     display: flex;
     background-color: #1f2937;
     align-items: center;
+    gap: 300px;
+    padding: 20px;
 }
 
 .content-header-left {
     display: flex;
     flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panels {
+    display: flex;
 }
