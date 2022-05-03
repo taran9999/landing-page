@@ -66,7 +66,8 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    gap: 20px
+    gap: 20px;
+    padding-bottom: 50px;
 }
 
 .panels {
@@ -85,4 +86,11 @@ button {
 .panel-subtext {
     max-width: 200px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
