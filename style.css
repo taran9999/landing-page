@@ -5,6 +5,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 ul {
@@ -32,6 +33,7 @@ button {
     border-radius: 10px;
     font-size: 15px;
     width: 100px;
+    border-color: #fff;
 }
 
 .header {
@@ -67,7 +69,6 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 50px;
 }
 
 .panels {
@@ -93,4 +94,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.call-to-action {
+    align-self: center;
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 75px;
+    color: #fff;
+    gap: 200px;
 }
