@@ -36,6 +36,13 @@ button {
     border-color: #fff;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #1f2937;
+}
+
 .header {
     display: flex;
     background-color: #1f2937;
